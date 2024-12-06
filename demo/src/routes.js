@@ -19,4 +19,9 @@ export default [
         name: "server",
         component: () => import("./demo5/Server.vue"),
     },
+    {
+        path: "/animation",
+        name: "animation",
+        component: () => import("./demo6/Animation.vue"),
+    },
 ];
