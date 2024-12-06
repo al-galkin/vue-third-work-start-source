@@ -20,8 +20,13 @@ export default [
         component: () => import("./demo5/Server.vue"),
     },
     {
-        path: "/animation",
-        name: "animation",
+        path: "/animation-css",
+        name: "animationCss",
         component: () => import("./demo6/Animation.vue"),
+    },
+    {
+        path: "/animation-js",
+        name: "animationJs",
+        component: () => import("./demo6/AnimationJS.vue"),
     },
 ];
